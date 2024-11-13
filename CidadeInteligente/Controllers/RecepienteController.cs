@@ -3,15 +3,16 @@ using CidadeInteligente.Data;
 using CidadeInteligente.Models;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace CidadeInteligente.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class RecipienteController : ControllerBase
+    public class RecepienteController : ControllerBase
     {
         private readonly APPDbContext _context;
 
-        public RecipienteController(APPDbContext context)
+        public RecepienteController(APPDbContext context)
         {
             _context = context;
         }

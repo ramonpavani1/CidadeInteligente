@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using CidadeInteligente.Data;
 using CidadeInteligente.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace CidadeInteligente.Controllers
 {
@@ -8,9 +9,9 @@ namespace CidadeInteligente.Controllers
     [Route("api/[controller]")]
     public class NotificacaoController : ControllerBase
     {
-        private readonly DbContext _context;
+        private readonly APPDbContext _context;
 
-        public NotificacaoController(DbContext context)
+        public NotificacaoController(APPDbContext context)
         {
             _context = context;
         }

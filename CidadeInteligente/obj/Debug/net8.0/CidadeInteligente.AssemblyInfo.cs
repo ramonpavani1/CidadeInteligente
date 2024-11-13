@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CidadeInteligente")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+777690c1f52b7f5d2bf7a8347064d92ea7a1368b")]
 [assembly: System.Reflection.AssemblyProductAttribute("CidadeInteligente")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CidadeInteligente")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
